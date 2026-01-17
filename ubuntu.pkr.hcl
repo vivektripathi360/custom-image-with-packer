@@ -13,7 +13,7 @@ source "azure-arm" "nginx" {
     task = "Image deployment"
   }
   client_id                         = "54410766-b09f-4587-9a36-fb09fb19e271"
-  #client_secret                     = "xxxxxxxxxxxxxxxx"
+  client_secret                     = "xxxxxxxxxxxxxxxx"
   image_offer                       = "0001-com-ubuntu-server-jammy"
   image_publisher                   = "canonical"
   image_sku                         = "22_04-lts"
